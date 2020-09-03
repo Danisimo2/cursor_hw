@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.task, h3{
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.hw {
+	text-align: center;
+	padding: 45px 0 30px 0;
+	font-size: 40px;
+}
+
+.fn1:first-child{
+	width: 280px;
+}
+
+#h2{
+	padding-left: 60px;
+}
+
+.fn1{
+	padding: 10px 10px;
+	border-radius: 10px;
+	border: 1px solid black;
+	font-size: 15px;
+	outline: none;
+}
+
+.fn3{
+	padding: 10px 10px;
+	border-radius: 10px;
+	border: 1px solid black;
+	font-size: 15px;
+	outline: none;
+}
+
+.fn1_1, .fn3_1, .fn4_1, .fn5_1, .fn6_1{
+	display: inline-block;
+	border: 1px solid #39b9ef;
+	box-sizing: content-box; 
+	padding: 12px 10px;
+	border-radius: 10px;
+	background: none;
+	background-color: #0abde3;
+	outline: none;
+	cursor: pointer;
+	color: #fff; 
+	transition: .3s;
+}
+
+h2{
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+button:hover{
+	background-color: #fff;
+	color: #39b9ef;
+	transition: 0.3s;
+	border-color: #39b9ef;
+}
+.res_1{
+	width: 400px;
+	height: 60px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding-left: 10px;
+	display: flex;
+	align-items: center; 
+	margin-top: 5px;
+}
+
+.res_3{
+	overflow: auto;
+}
+.res_3, .res_4, .res_5, .res_6{
+	border: 1px solid black;
+	width: 270px;
+	height: 60px;
+	border-radius: 10px;
+	padding-left: 10px;
+	display: flex;
+	align-items: center; 
+	margin-top: 5px; 
+}
+
+h3{
+	margin: 25px 0 50px 60px;
+}

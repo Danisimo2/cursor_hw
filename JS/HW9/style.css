@@ -1,0 +1,58 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.hw{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 40px;
+}
+
+.allBlocks .blocks .block{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.allBlocks{
+	display: none;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.butt{
+	width: 510px;
+	height: 50px;
+	margin: 110px auto;
+}
+
+.btn1, .btn2, .btn3, .btn4{
+	display: inline-block;
+	padding: 5px 10px;
+	background: none;
+	border: 0px;
+	border-radius: 10px;
+	font-size: 20px;
+	outline: none;
+	cursor: pointer;
+	background-color: #39b9ef;
+	color: #fff; 
+	transition: .3s;
+}
+
+.btn3:hover{
+	transition: none;
+}
+
+button:hover{
+	background-color: #2980b9;
+	transition: .3s;
+}

@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-size: 25px;
+	padding: 55px 55px;
+	background: linear-gradient(45deg, #F05281, #9C79F7);
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p{
+	padding: 2px;
+	font-weight: 500;
+}
+h3{
+	padding-top: 30px;
+}
+.hw{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 55px;
+	font-size: 35px;
+}

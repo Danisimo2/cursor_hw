@@ -1,0 +1,142 @@
+@keyframes shake {
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%{
+    transform: translate3d(0, -30px, 0);
+  }
+
+  30%{
+  	transform: translate3d(0, -20px, 0);
+  }
+  50%{
+  	transform: translate3d(0, -15px, 0);
+  }
+  70%{
+  	transform: translate3d(0, -10px, 0);
+  }
+  90%{
+  	transform: translate3d(0, -5px, 0);
+  }
+
+  20% {
+    transform: translate3d(0, 30px, 0);
+  }
+
+  40%{
+  	transform: translate3d(0, 20px, 0);
+  }
+  60%{
+  	transform: translate3d(0, 15px, 0);
+  }
+  80%{
+  	transform: translate3d(0, 10px, 0);
+  }
+  100%{
+  	transform: translate3d(0, 5px, 0);
+  }
+}
+
+.animate__shakeY {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+.hw {
+	text-align: center;
+	padding: 45px 0 30px 0;
+	font-size: 40px;
+    animation: shake;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(45deg, #F05281, #9C79F7);
+	height: 100%;
+}
+
+.back a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	text-decoration: none;
+	width: 170px;
+	height: 40px;
+	background-color: #A6E80C;
+	margin-top: 50px;
+	margin-left: 50px;
+	border-radius: 25px;
+	color: #706AA3;
+	box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.back a:active{
+	top: 3px;
+	box-shadow:  0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.arr{
+	padding-right: 5px;
+	color: #706AA3;
+}
+
+.fn{
+	margin: 20px 0px 10px 50px;
+}
+
+button{
+	display: inline-block;
+	width: 115px;
+	height: 35px;
+	border-radius: 25px;
+	border: 0px;
+	outline: none;
+	cursor: pointer;
+	background-color: #39b9ef; 
+	color: #fff;
+	box-shadow:5px 5px 30px rgba(0,0,0,0.6);
+}
+
+button:hover{
+	background-color: #fff;
+	color: #39b9ef;
+	transition: 0.3s;
+}
+
+.butt1 .btn2_f1, .btn2_f2, .btn2_f3, .btn2_f4{
+	margin: 15px 15px;
+}
+
+.answer1, .answer2, .answer3, .answer4{
+	display: block;
+	border: 1px solid black;
+	height: 40px;
+	width: 400px;
+	padding-top: 15px; 
+	padding-left: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.stop{
+	display: block;
+	height: 40px;
+	width: 410px;
+	padding-top: 2px; 
+	border-radius: 5px;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+
+

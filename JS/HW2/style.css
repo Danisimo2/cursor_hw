@@ -1,0 +1,26 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.hw{
+	display: flex;
+	justify-content: center;
+	margin: 50px 0px;
+	font-size: 25px;
+}
+
+.result{
+	margin:0 70px;	
+	font-size: 20px;
+}
+
+.result h2{
+	padding-bottom: 10px;
+}
+
+body{
+	background: linear-gradient(to top right, #F05281, #9C79F7) no-repeat;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+}
